@@ -1,5 +1,5 @@
 ---
-title: Parity Ethereum sub-commands
+title: Parity Ethereum CLI Sub-commands
 ---
 
 ## Export blockchain state
