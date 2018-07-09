@@ -2,18 +2,20 @@
 title: Parity Ethereum CLI Sub-commands
 ---
 ## Summary
-* [Export blockchain state](#export-blockchain-state)
-* [Export blockchain blocks](#export-blockchain-blocks)
-* [Import blockchain from file](#import-blockchain-from-file)
-* [Create accounts](#create-accounts)
-* [List accounts](#list-accounts)
-* [Import accounts](#import-accounts)
-* [Delete chain data](#delete-chain-data)
-* [Export light client headers](#export-light-client-headers)
-* [Parity Daemon](#parity-daemon)
-* [Make a database snapshot](#make-a-database-snapshot)
-* [Restore Database from a snapshot](#restore-database-from-a-snapshot)
-* [Signer new token generation](#signer-new-token-generation)
+* [Export state](#export-state)
+* [Export blocks](#export-blocks)
+* [Import](#import)
+* [Account new](#account-new)
+* [Account list](#account-list)
+* [Account import](#account-import)
+* [Db kill](#db-kill)
+* [Export hardcoded sync](#export-hardcoded-sync)
+* [Daemon](#daemon)
+* [Snapshot](#snapshot)
+* [Restore](#restore)
+* [Tools hash](#tools-hash)
+* [Signer new-token](#signer-new-token)
+
 
 
 ## Export state
@@ -30,7 +32,8 @@ This command requires the chain to be synced with --fat-db on.
 - `--format <FORMAT>`      Export in a given format. FORMAT must be either 'hex' or 'binary'. (default: binary)
 - `--max-balance <WEI>`    Don't export accounts with a balance greater than specified.
 - `--min-balance <WEI>`    Don't export accounts with balance less than specified.
-### Example: `parity export state ./export-state-file.bin`
+### Example:
+`parity export state ./export-state-file.bin`
 
 ## Export blocks
 
@@ -42,7 +45,8 @@ This command requires the chain to be synced with --fat-db on.
 - `--from <BLOCK>`       Export from block BLOCK, which may be an index or hash.
 - `--to <BLOCK>`         Export to (including) block BLOCK, which may be an index, hash or latest.
 
-### Example: `parity export blocks --chain kovan ./export-blocks-kovan.bin`
+### Example:
+`parity export blocks --chain kovan ./export-blocks-kovan.bin`
 
 ## Import
 
