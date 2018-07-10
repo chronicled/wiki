@@ -7,7 +7,7 @@ Alice's Secret Document is the following text: "mySecretDocument"
 
 In this section, we will generate an encryption key based on the Secret Store  Server key and encrypt the document. We will also associate the document with the generated key in order for a 3rd party to be able to retrieve the decryption key (Step 3). 
 
-## 1. Chose a Document key id for this document
+## 1. Choose a Document key id for this document
 
 We will need to identify this specific document on the Secret Store with a 64 character. This `Document key id` will be used often throughout this tutorial. A good candidate for the `Document key id` is the hash of this document. Let's generate its sha256 hash as a `Document key id` using the following command:
 ```bash 
