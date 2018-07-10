@@ -31,7 +31,7 @@ The overall picture of this tutorial is the following:
   * [4. Add bootnodes to each configuration file](Secret-Store-Tutorial-1.md#4-add-bootnodes-to-each-configuration-file)
   * [5. Network overview](Secret-Store-Tutorial-1.md#5-network-overview)
 * [Part 2 - Document encryption](Secret-Store-Tutorial-2.md)
-  * [1. Chose a Document key id for this document](Secret-Store-Tutorial-2.md#1-chose-a-document-key-id-for-this-document)
+  * [1. Choose a Document key id for this document](Secret-Store-Tutorial-2.md#1-choose-a-document-key-id-for-this-document)
   * [2. Get the server key for this document](Secret-Store-Tutorial-2.md#2-get-the-server-key-for-this-document)
     * [2.1 Sign the Document Key id](Secret-Store-Tutorial-2.md#21-sign-the-document-key-id)
     * [2.2 Generate the Secret Store Server key](Secret-Store-Tutorial-2.md#22-generate-the-secret-store-server-key)
